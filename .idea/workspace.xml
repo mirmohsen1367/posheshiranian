@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6502d8be-d9c5-47b3-9035-550e99754790" name="Default Changelist" comment="" />
+    <list default="true" id="6502d8be-d9c5-47b3-9035-550e99754790" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/customer/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/migrations/0002_evalution_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/migrations/0002_auto_20210506_1404.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/migrations/0003_auto_20210506_1452.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/migrations/0004_auto_20210506_1840.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/migrations/0005_alter_cuser_companies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/migrations/0006_activationcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/serializer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/serializer/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/utils/inter_face.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/views/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/views/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/44863caf-02b0-4cab-9e3e-012099b44788.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/491b09c5-bff3-4fe9-ada0-9cc9a089c3bf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iranian/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/iranian/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iranian/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/iranian/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0002_auto_20210506_0028.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +56,13 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,8 +76,14 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql&#10;sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mohsen\PycharmProjects\iranian\user\aa" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="iranian" type="Python.DjangoServer" factoryName="Django server">
@@ -32,6 +92,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="iranian.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -59,25 +120,124 @@
       <option name="presentableId" value="Default" />
       <updated>1620213441310</updated>
       <workItem from="1620213576029" duration="18632000" />
-      <workItem from="1620273499231" duration="1248000" />
+      <workItem from="1620273499231" duration="8772000" />
+      <workItem from="1620293449003" duration="8011000" />
+      <workItem from="1620305456921" duration="7408000" />
+      <workItem from="1620320717429" duration="2828000" />
+      <workItem from="1620323613840" duration="983000" />
+      <workItem from="1620324657551" duration="5468000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620242600273">
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620293718165">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1620242600273" />
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1620246914070">
+    <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1620293718165" />
+    <state x="475" y="132" key="#xdebugger.evaluate" timestamp="1620324098261">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1620246914070" />
+    <state x="475" y="132" key="#xdebugger.evaluate/0.0.1440.860@0.0.1440.860" timestamp="1620324098261" />
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1620324614084">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1620324614084" />
+    <state width="945" height="338" key="GridCell.Tab.0.bottom" timestamp="1620329802063">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="945" height="338" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1620329802063" />
+    <state width="945" height="338" key="GridCell.Tab.0.center" timestamp="1620329802063">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="945" height="338" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1620329802063" />
+    <state width="945" height="338" key="GridCell.Tab.0.left" timestamp="1620329802063">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="945" height="338" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1620329802063" />
+    <state width="945" height="338" key="GridCell.Tab.0.right" timestamp="1620329802063">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="945" height="338" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1620329802063" />
+    <state width="1380" height="277" key="GridCell.Tab.1.bottom" timestamp="1620324615509">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="277" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1620324615509" />
+    <state width="1380" height="277" key="GridCell.Tab.1.center" timestamp="1620324615509">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="277" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1620324615509" />
+    <state width="1380" height="277" key="GridCell.Tab.1.left" timestamp="1620324615509">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="277" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1620324615509" />
+    <state width="1380" height="277" key="GridCell.Tab.1.right" timestamp="1620324615509">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1380" height="277" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1620324615509" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1620240996589">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1440.860@0.0.1440.860" timestamp="1620240996589" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/views/views.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/views/views.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/validate/validate_user.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/validate/validate_user.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/validate/validate_user.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/validate/verification.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/validate/verification.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/views/login.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
