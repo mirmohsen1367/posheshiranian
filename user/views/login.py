@@ -10,10 +10,10 @@ class UserLogIn(APIView):
     def post(self, request):
         try:
             data = JSONParser().parse(request)
-            user = auth.authenticate(request, email=data['email'], password=data['password'])
+            user = auth.authenticate(request, username=data['username'], password=data['password'])
             if user is not None:
                 auth.login(request, user)
-                return Response({'username': data["user_name"],
+                return Response({'username': data["username"],
                                  'token': api_settings.JWT_ENCODE_HANDLER(api_settings.JWT_PAYLOAD_HANDLER(user))})
 
         except Exception:

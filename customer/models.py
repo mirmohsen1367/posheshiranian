@@ -1,5 +1,4 @@
 from django.db import models
-from django.utils import timezone
 from django.core.validators import RegexValidator
 
 
@@ -15,17 +14,3 @@ class Company(models.Model):
 
     def __str__(self):
         return self.name
-
-
-class Evalution(models.Model):
-    location = models.CharField(max_length=30)
-    user = models.ForeignKey('user.CUser', related_name='ev_expeter',
-                                 on_delete=models.CASCADE, null=True)
-    company = models.ForeignKey(Company, on_delete=models.CASCADE, null=True)
-    evalution_time = models.DateTimeField()
-
-    class Meta:
-        db_tablespace = "customer_evalution"
-
-    def __str__(self):
-        return f"{self.user.user_name} - {self.company.name}"
