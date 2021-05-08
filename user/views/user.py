@@ -12,9 +12,11 @@ from user.models import Permission
 from user.serializer.user import PermissionSerialzer
 from user.models import UserPermission
 from user.serializer.user import UserPermissionSerializer
+from rest_framework.generics import GenericAPIView
 
-class EvaluationExpert(APIView):
 
+class EvaluationExpert(GenericAPIView):
+    serializer_class = Evaluation_serializer
     def get(self, request):
         quaryset = evModels.objects.all()
         output = Evaluation_serializer(quaryset, many=True)
@@ -43,13 +45,16 @@ class EvaluationExpert(APIView):
 
 
 class InsurserView(APIView):
+    serializer_class = Insurser_serializer
+
+    ''' THE DATA MUST POST TO IT IS email, gender, username, name,
+    # password , insurer_start and insurer_end'''
 
     def get(self, requet):
         queryset = Insurer.objects.all()
         s = Insurser_serializer(queryset, many=True)
         return Response(s.data, status=status.HTTP_200_OK)
 
-    # @check_permission("create_user")
     def post(self, request):
         data = JSONParser().parse(request)
         try:
@@ -57,7 +62,7 @@ class InsurserView(APIView):
             return Response({"message": "username or email already exists"}, status=status.HTTP_400_BAD_REQUEST)
 
         except:
-            u = CUser.objects.create(
+            u = CUser(
                 email=data['email'], username=data['username'],
                 gender=data['gender'], name=data['name'], is_active=True
             )
@@ -73,7 +78,8 @@ class InsurserView(APIView):
             return Response(s.data, status=status.HTTP_200_OK)
 
 
-class CompaniView(APIView):
+class CompaniView(GenericAPIView):
+    serializer_class = CompanySerializer
     def get(self, request):
         queryset = Company.objects.all()
         s = CompanySerializer(queryset, many=True)
@@ -87,8 +93,8 @@ class CompaniView(APIView):
         return Response(s.data, status=status.HTTP_200_OK)
 
 
-class CompanyUSerView(APIView):
-
+class CompanyUSerView(GenericAPIView):
+    serializer_class = UserCompanySerializer
     def get(self, request):
         queryset = Evalution.objects.all()
         s = UserCompanySerializer(queryset, many=True)
@@ -104,7 +110,8 @@ class CompanyUSerView(APIView):
         return Response(s.data, status=status.HTTP_200_OK)
 
 
-class PermissionView(APIView):
+class PermissionView(GenericAPIView):
+    serializer_class = PermissionSerialzer
     @check_permission("list_permission")
     def get(self, request):
         queryset = Permission.objects.all()
@@ -130,8 +137,8 @@ class PermissionView(APIView):
         return Response(s.data, status=status.HTTP_200_OK)
 
 
-class UserPermissionView(APIView):
-
+class UserPermissionView(GenericAPIView):
+    serializer_class = UserPermissionSerializer
     def get(self, request):
         queryset = UserPermission.objects.all()
         s = UserPermissionSerializer(queryset, many=True)
@@ -139,6 +146,11 @@ class UserPermissionView(APIView):
 
     def post(self, request):
         data = JSONParser().parse(request)
+        check = UserPermission.objects.filter(user__username=data['username'], permission__name=data['name']).first()
+
+        if check:
+            return Response({"message": "permissionUser is exsist"})
+
         user = CUser.objects.get(username=data['username'])
         permission = Permission.objects.get(name=data['name'])
 

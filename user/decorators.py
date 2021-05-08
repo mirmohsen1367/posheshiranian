@@ -20,6 +20,7 @@ def check_permission(Permission_name):
             ).first()
 
             if request.user.is_superuser or user_permission is not None:
+
                 return func(*args, **kwargs)
 
             return Response({"message": "user has'nt permission"}, status=status.HTTP_400_BAD_REQUEST)

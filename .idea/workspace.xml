@@ -20,38 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6502d8be-d9c5-47b3-9035-550e99754790" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/custom_permission.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0002_auto_20210507_1730.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/0003_alter_cuser_username.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/views/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/491b09c5-bff3-4fe9-ada0-9cc9a089c3bf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5d4defad-6718-481c-9b37-81013ad44dd2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/migrations/0002_evalution_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/customer/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iranian/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/iranian/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iranian/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/iranian/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/decorators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0002_auto_20210506_1404.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0003_auto_20210506_1452.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0004_auto_20210506_1840.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0005_alter_cuser_companies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0006_activationcode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0007_permission.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0008_delete_activationcode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/migrations/0009_auto_20210507_0008.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/serializer/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializer/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/utils/inter_face.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +111,8 @@
       <workItem from="1620361510191" duration="13242000" />
       <workItem from="1620385084227" duration="10818000" />
       <workItem from="1620396601559" duration="3261000" />
-      <workItem from="1620410081307" duration="4326000" />
+      <workItem from="1620410081307" duration="4724000" />
+      <workItem from="1620457827904" duration="17812000" />
     </task>
     <servers />
   </component>
@@ -158,46 +136,46 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1620392474197" />
-    <state x="934" y="265" key="#xdebugger.evaluate" timestamp="1620414303830">
+    <state x="393" y="250" width="490" height="592" key="#xdebugger.evaluate" timestamp="1620477741698">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="934" y="265" key="#xdebugger.evaluate/0.0.1440.860@0.0.1440.860" timestamp="1620414303830" />
+    <state x="393" y="250" width="490" height="592" key="#xdebugger.evaluate/0.0.1440.860@0.0.1440.860" timestamp="1620477741698" />
     <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1620410349589">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1620410349589" />
-    <state width="1397" height="228" key="GridCell.Tab.0.bottom" timestamp="1620414321526">
+    <state width="1397" height="224" key="GridCell.Tab.0.bottom" timestamp="1620480735718">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="228" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1620414321525" />
-    <state width="1397" height="228" key="GridCell.Tab.0.center" timestamp="1620414321525">
+    <state width="1397" height="224" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1620480735718" />
+    <state width="1397" height="224" key="GridCell.Tab.0.center" timestamp="1620480735718">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="228" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1620414321525" />
-    <state width="1397" height="228" key="GridCell.Tab.0.left" timestamp="1620414321525">
+    <state width="1397" height="224" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1620480735718" />
+    <state width="1397" height="224" key="GridCell.Tab.0.left" timestamp="1620480735718">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="228" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1620414321525" />
-    <state width="1397" height="228" key="GridCell.Tab.0.right" timestamp="1620414321525">
+    <state width="1397" height="224" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1620480735718" />
+    <state width="1397" height="224" key="GridCell.Tab.0.right" timestamp="1620480735718">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="228" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1620414321525" />
-    <state width="1397" height="228" key="GridCell.Tab.1.bottom" timestamp="1620414321526">
+    <state width="1397" height="224" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1620480735718" />
+    <state width="1397" height="304" key="GridCell.Tab.1.bottom" timestamp="1620480248323">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="228" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1620414321526" />
-    <state width="1397" height="228" key="GridCell.Tab.1.center" timestamp="1620414321526">
+    <state width="1397" height="304" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1620480248323" />
+    <state width="1397" height="304" key="GridCell.Tab.1.center" timestamp="1620480248323">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="228" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1620414321526" />
-    <state width="1397" height="228" key="GridCell.Tab.1.left" timestamp="1620414321526">
+    <state width="1397" height="304" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1620480248323" />
+    <state width="1397" height="304" key="GridCell.Tab.1.left" timestamp="1620480248323">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="228" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1620414321526" />
-    <state width="1397" height="228" key="GridCell.Tab.1.right" timestamp="1620414321526">
+    <state width="1397" height="304" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1620480248323" />
+    <state width="1397" height="304" key="GridCell.Tab.1.right" timestamp="1620480248323">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="228" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1620414321526" />
+    <state width="1397" height="304" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1620480248323" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1620240996589">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -206,6 +184,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="300" y="84" key="com.intellij.database.dbimport.ImportDialog/0.0.1440.860@0.0.1440.860" timestamp="1620410446466" />
+    <state x="426" y="163" width="587" height="534" key="find.popup" timestamp="1620465229466">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="426" y="163" width="587" height="534" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1620465229466" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -242,28 +224,48 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/user/views/user.py</url>
-          <line>53</line>
+          <line>58</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/user/views/user.py</url>
-          <line>77</line>
+          <line>83</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/user/views/user.py</url>
-          <line>98</line>
+          <line>104</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/user/views/user.py</url>
-          <line>120</line>
-          <option name="timeStamp" value="49" />
+          <line>147</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/user/views/user.py</url>
-          <line>140</line>
-          <option name="timeStamp" value="50" />
+          <line>20</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/views/user.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/views/user.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/views/user.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/user/views/user.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -9,5 +9,5 @@ urlpatterns = [
     path('companies/', user.CompaniView.as_view()),
     path('companis/user', user. CompanyUSerView.as_view()),
     path('permission/', user.PermissionView.as_view()),
-    path('permission/user/',user.UserPermissionView.as_view())
+    path('permission/user/', user.UserPermissionView.as_view())
     ]
